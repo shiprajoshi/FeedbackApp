@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "test": "./node_modules/jshint/bin/jshint index.js"
   },
   "author": "",
   "license": "ISC",
@@ -18,5 +19,8 @@
     "nodemon": "^1.14.6",
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.5"
   }
 }
